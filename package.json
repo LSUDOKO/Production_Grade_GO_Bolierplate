@@ -1,5 +1,5 @@
 {
-  "name": "production_grade_go_bolierplate",
+  "name": "go_boilerplate",
   "version": "1.0.0",
   "scripts": {
     "build": "turbo run build",
@@ -14,13 +14,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LSUDOKO/Production_Grade_GO_BolierPlate.git"
-  }
-  ,
+  },
   "packageManager": "bun@1.2.13",
   "engines": {
     "node": ">=22"
   },
-  "workspaces":[
+  "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3"
+  }
 }
