@@ -63,3 +63,6 @@ tsconfig.tsbuildinfo
 production_grade_go_bolierplateproduction_grade_go_bolierplate
 .codacy
 .github/instructions
+
+#Ignore windsurf AI rules
+.windsurfrules
