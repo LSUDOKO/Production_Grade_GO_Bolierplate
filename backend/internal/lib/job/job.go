@@ -1,7 +1,7 @@
 package job
 
 import (
-	"github.com/Production_Grade_GO_Bolierplate/go-boilerplate/internal/config"
+	"github.com/LSUDOKO/Production_Grade_GO_Bolierplate/internal/config"
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog"
 )
